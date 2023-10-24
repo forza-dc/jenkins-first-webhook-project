@@ -5,6 +5,10 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+                sh 'echo whoami'
+                sh 'echo whoami'
+                sh 'python3 --version'
+                sh 'python3 pipeline.py'
             }
         }
     }
